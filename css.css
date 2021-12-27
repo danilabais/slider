@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Kelly+Slab&family=Montserrat:wght@900&display=swap');
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100vh;
+}
+.frame {
+    height: 70%;
+   border: solid 12px rgba(52, 41, 209, 0.829);
+}
+
+img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    object-position: center;
+}
+.wrapper {
+    padding: 10px 20px;
+    font-size: 2rem;
+    font-family: 'Caveat', cursive;
+}
+.title-wrapper {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+.title {
+    max-width: 70vw;
+}
+.btn {
+    background-color: rgba(52, 41, 209, 0.829);
+    color: #fff;
+    font-size: 4rem;
+    padding: 0px 40px;
+    transition: all .3s;
+    border-radius: 10px;
+}
+.btn:hover {
+    background-color: rgb(52, 41, 209);
+}
+.btn-wrapper {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-around;
+}
